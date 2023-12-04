@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+body{
+	display: grid;
+	align-content: center;
+	background-color: #121218;
+	height: 100vh;
+}
+
+h1{
+	color: aliceblue;
+}
+form{
+	border-radius: 2rem;
+	padding: 2rem;
+	background-color: #333336;
+	margin: auto;
+	justify-content: center;
+	max-width: 400px;
+}
+
+input{
+	background-color: #121218;
+	outline: none;
+	color: aliceblue;
+	border-radius: 2rem;
+	margin: 0.5rem;
+	width: 100%;
+	padding: 1rem;
+}
+
+.button{
+	padding: 1rem;
+	font-size: 18px;
+	color: rgb(255, 70, 70);
+}
